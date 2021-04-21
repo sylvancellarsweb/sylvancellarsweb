@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<amp-img class="" src="/luxury-event-van-sylvan-cellars.jpg" width="3417" height="1418" alt="{{ .Title }} Image" layout="responsive">
+</amp-img>
+<br><br>
+<a href="/" class="h5 ml2 nolink">Home</a> &gt; <span class="h5">Events</span>
+<br>
+<h1 class="h2 col-10 mx4 pb3 pt3">Events</h1>
+<p class="h4 col-10 mx4 pt3 pb1">
+<a href="/schedule-event" class="ampstart-btn caps inline-block mb2 pt1 pb1 ">Schedule Event</a>
+<a href="tel:{{ .Site.Params.phone }}" class="ampstart-btn mb2 caps inline-block pb1 pt1 ">{{ .Site.Params.phoneDisplay }}</a>
+<a href="/contact" class="ampstart-btn caps inline-block mb2 pt1 pb1 ">Submit Message</a>
+</p>
+<p class="col-10 mx3 pb1 pt1">Browse through our events.</p>
+
+<section id="events" class="py4 mx4">
+	<div class="mxn2 flex flex-wrap  ">
+		{{ range (.Paginator 99).Pages }}
+		<div class="px2 col-12 sm-col-6 md-col-4  ">
+			<h3 class="h4 col-10 mr4 pt1"><a href="{{ .Permalink }}" class="text-decoration-none">{{ .Title }}</a></h3>
+			<a href="{{ .Permalink }}" class="col-10 mx3 pb1 pt1"><amp-img class="" src="../../{{ .Params.featured_image  | safeHTML }}" width="{{ .Params.featured_image_width  | safeHTML }}" height="{{ .Params.featured_image_height  | safeHTML }}" alt="{{ .Title }} Image" title="{{ .Title }}" layout="responsive">
+			</amp-img></a><br><a href="{{ .Permalink }}" class="ampstart-btn caps inline-block mb2 pt1 pb1 ">Event {{ .Params.eventDate }}</a></p>
+		</div>
+		{{ end }}
+	</div>
+</section>
+
+{{ end }}

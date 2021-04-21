@@ -1,0 +1,80 @@
+  <!-- Start Navbar -->
+  <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 pt2 md-pt0">
+    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger  pr2 absolute top-0 pr0 mr2 mt2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="block"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
+    </div>
+      <a href="/" class="text-decoration-none inline-block mx-auto ampstart-headerbar-home-link mb1 md-mb0 ">
+        <amp-img src="/icon-55x55.png" width="55" height="55" layout="fixed" class="my0 mx-auto " alt="Sylvan Cellars Events and Tasting Room Logo"></amp-img>
+      </a>
+    <div class="ampstart-headerbar-fixed center m0 p0 flex justify-center nowrap absolute top-0 right-0 pt2 pr3">
+      <div class="mr2">
+      </div>
+      <a href="tel:{{ .Site.Params.phone }}" class="text-decoration-none mr2 ampstart-headerbar-fixed-link ">
+          
+          <div class="ampstart-headerbar-icon-wrapper relative"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+<g><path d="M299.5,387.8c7.7,22.8,19.3,42.8,32.5,61.7c16.9,24.3,34.3,48.3,52.5,71.6c11.7,15,24.9,28.8,37.9,42.7c22.5,24.2,47.5,45.6,74.1,65.1c23.8,17.3,47.7,34.5,72.3,50.5c13.2,8.6,27.3,16.3,44.2,20.5c6.8-14.6,13.6-29.3,20.3-44.1c9.1-20,18-40.1,34.9-55c12.6-11.1,27.2-16.6,44.4-14.8c24.2,2.5,45.2,13.6,66,24.8c21.1,11.4,41.9,23.6,62,36.8c23.3,15.3,46.5,31.1,68.3,48.4c19.6,15.6,37.7,33.1,55.4,50.7c10.2,10.1,18.4,22.4,23.1,36.3c5.5,16.4,1.7,32.1-5.4,47.2c-7.1,14.9-17.2,27.7-28.4,39.7c-9.7,10.4-19.2,21.2-30.2,30c-19.3,15.5-39.2,30.6-60,44c-24.6,15.9-50.9,28.5-79.1,37.1c-20.8,6.3-42,10.2-63.7,8.7c-18.6-1.3-36.9-5.4-54.8-11c-32.1-10.1-62.5-23.9-92.1-39.7c-35.3-18.8-69.1-40.1-101.5-63.5c-23.3-16.8-46.3-34-68.7-51.8c-20.5-16.3-40.7-33.1-59.9-50.9c-30.3-28-59.9-56.9-89.3-85.8c-12-11.8-23-24.5-34-37.3c-13.2-15.3-25.9-31.1-38.9-46.7c-28.7-34.3-55-70.3-79.2-107.8c-15.2-23.4-28.9-47.8-42.7-72.1c-16.1-28.6-28.9-58.7-38.7-90c-5.4-17.3-9.1-35-10.4-53.2c-2.2-31.4,5.5-60.5,17.2-89c11.4-27.9,26.2-53.9,43.9-78.2c9.7-13.3,20.2-26.1,30.9-38.7c7.5-8.8,15.5-17.4,24.1-25.2c15.3-13.8,31.2-26.8,50.8-34.4c20.6-8,39.5-4.9,57.5,7.1c17.6,11.7,31.8,27,46,42.5c26.4,28.8,49.1,60.5,70.2,93.1c12.3,19.1,23.5,38.9,35,58.5c10.3,17.4,18.6,35.8,24.4,55.2c6.6,21.8,4.4,41.9-11.2,59.9c-8.5,9.8-18.4,17.2-29.7,22.8c-20.4,10.1-41,19.6-61.6,29.4C305.1,384.2,302.5,386,299.5,387.8z M614.6,760.3c-7.6-1.6-15.4-2.5-22.7-4.9c-26.1-8.4-49.5-22.3-72.4-37.1c-29.6-19.2-58-39.9-84.6-63c-15.3-13.3-31.3-26-45.6-40.4c-15.9-16-30.4-33.4-45.1-50.5c-10.5-12.2-21.2-24.5-30.4-37.7c-16.2-23-32-46.2-46.6-70.1c-12.1-19.7-22.5-40.3-26.2-63.7c-2.9-18.5,3.2-33.5,15.8-45.9c12.3-12.1,28.3-18.7,43.7-26.1c16.6-8,33.1-16.4,49.6-24.6c5-2.5,5.6-6.2,3.5-10.9c-5.5-12.3-9.9-25.2-16.4-36.9c-11.5-20.7-23.3-41.3-36.6-60.8c-16-23.6-33.5-46.1-50.6-68.9c-12.1-16.2-26.2-30.7-41.5-43.9c-7.3-6.3-10.8-6.9-18.7-1.4c-7.4,5.2-15.1,10.4-21.4,16.8c-12.9,13-25.7,26.2-37.1,40.5c-21.1,26.6-39,55.4-51.3,87.2c-7,18.3-13.3,37.1-10.6,57c2.2,15.7,4.2,31.8,9.6,46.5c8.9,24.2,19.7,47.8,31.2,70.9c15.5,31.4,34.3,60.9,54.3,89.6c12.4,17.7,24.7,35.6,38,52.6c16.9,21.7,34.5,42.8,52.3,63.7c15.6,18.3,31.3,36.7,48.3,53.7c25.9,26.1,52.7,51.3,79.6,76.4c16.2,15.1,33,29.6,50.3,43.5c19.6,15.8,40,30.6,60.1,45.7c36.2,27.1,74.4,51.1,114.3,72.3c25.8,13.7,52.3,26.1,80.8,33.5c13.4,3.5,27,6.5,40.8,7.5c15.2,1,30.2-3.1,44.5-8.2c23.8-8.4,46.3-19.8,67-34.2c14.3-9.9,28-20.7,41.7-31.5c17.4-13.9,32.6-30,45-48.5c3.2-4.9,4.9-9.7-0.4-14.7c-3.3-3.2-5.5-7.5-8.9-10.7c-10.3-9.9-20.3-20-31.3-29c-17.1-13.9-34.4-27.6-52.4-40.2c-19.1-13.4-38.7-26.1-58.7-37.9c-19.7-11.7-39.8-22.8-61.8-30.1c-4.7-1.6-7.9-0.7-10,3.1c-5.5,9.8-11.1,19.7-15.9,29.9c-9.1,19.2-16,39.4-29,56.7C647.6,750.4,633.7,759.4,614.6,760.3z"/></g>
+</svg></div>
+        </a>
+        <div class="mr2">
+      </div>
+        <a href="/contact" class="text-decoration-none mr2 ampstart-headerbar-fixed-link ">
+          
+          <div class="ampstart-headerbar-icon-wrapper relative"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+<g><g transform="translate(0.000000,384.000000) scale(0.100000,-0.100000)"><path d="M568.8,2494.4c-89.9-23-254.5-118.6-306.1-179.9c-26.8-32.5-70.8-101.4-99.5-155c-47.8-91.8-49.7-114.8-57.4-413.3l-5.7-315.7L2551,146.8L5000-1139L7449,146.8l2451,1283.8l-5.7,315.7l-5.8,315.7l-65.1,120.5c-72.7,133.9-132,191.3-277.4,267.9l-97.6,51.7l-4410.2,3.8C2612.2,2505.9,601.3,2502.1,568.8,2494.4z"/><path d="M105.7-2160.7l5.7-2225.2l51.7-97.6c76.5-145.4,133.9-204.7,267.9-277.4l120.5-65H5000h4448.5l97.6,51.7c145.4,76.5,204.7,133.9,277.4,267.9l65.1,120.5l5.8,2225.2l3.8,2227.1L9702.9-38.8c-415.2-221.9-3901.3-2041.5-4104.1-2144.8c-269.8-133.9-470.7-202.8-598.9-202.8c-128.2,0-329.1,68.9-598.9,202.8C4198.3-2080.3,712.3-260.7,297.1-38.8L101.9,66.4L105.7-2160.7z"/></g></g>
+
+
+</svg></div>
+        </a>
+        <div class="mr2">
+      </div>
+      
+
+        
+
+    </div>
+  </header>
+
+<!-- Start Sidebar -->
+<amp-sidebar id="header-sidebar" class="ampstart-sidebar px3  md-flex flex-column justify-content items-center justify-center" layout="nodisplay">
+  <div class="flex justify-start items-center ampstart-sidebar-header">
+    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger items-start">✕</div>
+  </div>
+  <nav class="ampstart-sidebar-nav ampstart-nav">
+    <ul class="list-reset m0 p0 ampstart-label">
+        <li>
+          <a href="/" class="text-decoration-none block 22">
+          <amp-img src="/{{ .Site.Params.logoSideBar }}" width="{{ .Site.Params.logoSideBarWidth }}" height="{{ .Site.Params.logoSideBarHeight }}" layout="responsive" class="ampstart-sidebar-nav-image inline-block mb4" alt="{{ .Site.Params.businessName }} logo" noloading="">
+            <div placeholder="" class="commerce-loader"></div>
+          </amp-img>
+          </a>
+        </li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="/venue">Venue</a></li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="/event">Events</a></li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="/about">About</a></li>
+          <li class="ampstart-nav-item "><a class="ampstart-nav-link" href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+    <h3 class="h7 block pt3">follow us</h3>
+<ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+    <li>
+        <a href="{{ .Site.Params.facebookURL }}" class="inline-block p1" aria-label="Link to Sylvan Cellars Events & Tasting Room Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="23.6" viewBox="0 0 56 55"><title>Facebook</title><path d="M47.5 43c0 1.2-.9 2.1-2.1 2.1h-10V30h5.1l.8-5.9h-5.9v-3.7c0-1.7.5-2.9 3-2.9h3.1v-5.3c-.6 0-2.4-.2-4.6-.2-4.5 0-7.5 2.7-7.5 7.8v4.3h-5.1V30h5.1v15.1H10.7c-1.2 0-2.2-.9-2.2-2.1V8.3c0-1.2 1-2.2 2.2-2.2h34.7c1.2 0 2.1 1 2.1 2.2V43" class="ampstart-icon ampstart-icon-fb"></path></svg></a>
+    </li>
+    <li>
+        <a href="{{ .Site.Params.instagramURL }}" class="inline-block p1" aria-label="Link to Sylvan Cellars Events & Tasting Room Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 54 54"><title>instagram</title><path d="M27.2 6.1c-5.1 0-5.8 0-7.8.1s-3.4.4-4.6.9c-1.2.5-2.3 1.1-3.3 2.2-1.1 1-1.7 2.1-2.2 3.3-.5 1.2-.8 2.6-.9 4.6-.1 2-.1 2.7-.1 7.8s0 5.8.1 7.8.4 3.4.9 4.6c.5 1.2 1.1 2.3 2.2 3.3 1 1.1 2.1 1.7 3.3 2.2 1.2.5 2.6.8 4.6.9 2 .1 2.7.1 7.8.1s5.8 0 7.8-.1 3.4-.4 4.6-.9c1.2-.5 2.3-1.1 3.3-2.2 1.1-1 1.7-2.1 2.2-3.3.5-1.2.8-2.6.9-4.6.1-2 .1-2.7.1-7.8s0-5.8-.1-7.8-.4-3.4-.9-4.6c-.5-1.2-1.1-2.3-2.2-3.3-1-1.1-2.1-1.7-3.3-2.2-1.2-.5-2.6-.8-4.6-.9-2-.1-2.7-.1-7.8-.1zm0 3.4c5 0 5.6 0 7.6.1 1.9.1 2.9.4 3.5.7.9.3 1.6.7 2.2 1.4.7.6 1.1 1.3 1.4 2.2.3.6.6 1.6.7 3.5.1 2 .1 2.6.1 7.6s0 5.6-.1 7.6c-.1 1.9-.4 2.9-.7 3.5-.3.9-.7 1.6-1.4 2.2-.7.7-1.3 1.1-2.2 1.4-.6.3-1.7.6-3.5.7-2 .1-2.6.1-7.6.1-5.1 0-5.7 0-7.7-.1-1.8-.1-2.9-.4-3.5-.7-.9-.3-1.5-.7-2.2-1.4-.7-.7-1.1-1.3-1.4-2.2-.3-.6-.6-1.7-.7-3.5 0-2-.1-2.6-.1-7.6 0-5.1.1-5.7.1-7.7.1-1.8.4-2.8.7-3.5.3-.9.7-1.5 1.4-2.2.7-.6 1.3-1.1 2.2-1.4.6-.3 1.6-.6 3.5-.7h7.7zm0 5.8c-5.4 0-9.7 4.3-9.7 9.7 0 5.4 4.3 9.7 9.7 9.7 5.4 0 9.7-4.3 9.7-9.7 0-5.4-4.3-9.7-9.7-9.7zm0 16c-3.5 0-6.3-2.8-6.3-6.3s2.8-6.3 6.3-6.3 6.3 2.8 6.3 6.3-2.8 6.3-6.3 6.3zm12.4-16.4c0 1.3-1.1 2.3-2.3 2.3-1.3 0-2.3-1-2.3-2.3 0-1.2 1-2.3 2.3-2.3 1.2 0 2.3 1.1 2.3 2.3z" class="ampstart-icon ampstart-icon-instagram"></path></svg></a>
+    </li>
+    <li>
+        <a href="{{ .Site.Params.twitterURL }}" class="inline-block p1" aria-label="Link to Sylvan Cellars Events & Tasting Room Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.2" viewBox="0 0 53 49"><title>Twitter</title><path d="M45 6.9c-1.6 1-3.3 1.6-5.2 2-1.5-1.6-3.6-2.6-5.9-2.6-4.5 0-8.2 3.7-8.2 8.3 0 .6.1 1.3.2 1.9-6.8-.4-12.8-3.7-16.8-8.7C8.4 9 8 10.5 8 12c0 2.8 1.4 5.4 3.6 6.9-1.3-.1-2.6-.5-3.7-1.1v.1c0 4 2.8 7.4 6.6 8.1-.7.2-1.5.3-2.2.3-.5 0-1 0-1.5-.1 1 3.3 4 5.7 7.6 5.7-2.8 2.2-6.3 3.6-10.2 3.6-.6 0-1.3-.1-1.9-.1 3.6 2.3 7.9 3.7 12.5 3.7 15.1 0 23.3-12.6 23.3-23.6 0-.3 0-.7-.1-1 1.6-1.2 3-2.7 4.1-4.3-1.4.6-3 1.1-4.7 1.3 1.7-1 3-2.7 3.6-4.6" class="ampstart-icon ampstart-icon-twitter"></path></svg></a>
+    </li>
+</ul>
+
+    <ul class="ampstart-sidebar-faq list-reset m0">
+        <li class="ampstart-faq-item"><a href="/schedule-event" class="text-decoration-none">Schedule Event</a></li>
+        <li class="ampstart-faq-item"><a href="/privacy-policy" class="text-decoration-none">Cookies &amp; Privacy Policy</a></li>
+    </ul>
+</amp-sidebar>
+<!-- End Sidebar -->
+  <!-- End Navbar -->

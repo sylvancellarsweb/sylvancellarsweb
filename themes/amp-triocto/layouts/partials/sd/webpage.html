@@ -1,0 +1,3 @@
+<script type="application/ld+json">
+{ "@context": "http://schema.org", "@type": "Webpage", "url": "{{  .Permalink | safeHTML }} ", "name": "{{ .Site.BaseURL }}", "headline": "{{ with .Site.Params.description | safeHTML  }}{{ . }}{{ else }}{{ with .Site.description | safeHTML }}{{ . }}{{ end }}{{ end }}", "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ .Permalink }}" }, "publisher": { "@type": "Organization", "name": "{{ .Site.Params.businessName }}", "logo": { "url": "{{ .Site.BaseURL }}{{ .Site.Params.logoIcon }}", "width": 1024, "height": 1024, "@type": "ImageObject" } }, "image": { "@type": "ImageObject", "url": "{{ .Site.BaseURL }}{{ .Site.Params.featuredImageJpg }}", "width": 1920, "height": 1080 } }
+</script>

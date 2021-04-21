@@ -1,0 +1,171 @@
+{{ define "main" }}
+
+
+<br><br>
+
+<amp-img class="" src="../../{{ .Params.featured_image  | safeHTML }}" width="{{ .Params.featured_image_width }}" height="{{ .Params.featured_image_height }}" alt="{{ .Title }} image" title="{{ .Title }}" layout="responsive">
+		</amp-img>
+		<p class="h6 col-10 mx4 pb1 pt1">Published: {{ .PublishDate.Format "January 2, 2006" }}</p>
+
+		<h1 class="h2 col-10 mx4 pb2 pt3" id="sylvan-cellar-event-title">{{ .Title }}</h1>
+          <hr><br>
+		<h2 class="h5 col-10 mx4 pb1" id="sylvan-cellar-event-price">Date </h2>
+    <p class="col-10 mx4 pb2">{{ .Params.eventDate }}</p>
+    <h2 class="h5 col-10 mx4 pb1" id="sylvan-cellar-event-price">Time </h2>
+    <p class="col-10 mx4 pb2">{{ .Params.eventTime }}</p>
+    <h2 class="h5 col-10 mx4 pb1" id="sylvan-cellar-event-price">Location</h2>
+    <p class="col-10 mx4 pb2"><a href="https://www.google.com/maps/dir//41.506536,-85.3720561/@41.506536,-85.372056,17z?hl=en" style="color: blue;">Sylvan Cellars Events & Tasting Room</a></p> 
+		<h2 class="h5 col-10 mx4 pb1" id="sylvan-cellar-event-price">Features</h3>
+
+		<section id="event-details" class="py1">
+			<strong><div class="mxn2 flex    flex-wrap  ">
+				<div class="px2 col-12 sm-col-6 md-col-4  ">
+					<span class="col-10 mx4 pt1">{{ .Params.feature1 }}</span>
+				</div>
+				<div class="px2 col-12 sm-col-6 md-col-4  ">
+					<span class="col-10 mx4 pt1">{{ .Params.feature2 }}</span>
+				</div>
+				<div class="px2 col-12 sm-col-6 md-col-4  ">
+					<span class="col-10 mx4 pt1">{{ .Params.feature3 }}</span>
+				</div>
+				<div class="px2 col-12 sm-col-6 md-col-4  ">
+					<span class="col-10 mx4 pt1">{{ .Params.feature4 }}</span>
+				</div>
+				<div class="px2 col-12 sm-col-6 md-col-4  ">
+					<span class="col-10 mx4 pt1">{{ .Params.feature5 }}</span>
+				</div>
+        <div class="px2 col-12 sm-col-6 md-col-4  ">
+          <span class="col-10 mx4 pt1">{{ .Params.feature6 }}</span>
+        </div>
+			</div></strong>
+		</section>
+		<h2 class="h5 col-10 mx4 pb1 pt3" id="sylvan-cellar-event-description">Details</h2>
+		<p class="col-10 mx4 pb1">{{ .Params.eventDetails }}</p>
+		<h2 class="h5 col-10 mx4 pb1 pt3" id="sylvan-cellar-event-image-gallery">Image Gallery</h2>
+		<p class="col-10 mx4 pb3">Please click or touch the image below to view the entire gallery of images for this event.</p>
+    <div class="col-8 mx4 mb3 pointerGuy">
+		<amp-carousel id="carousel-with-lightbox"
+                      width="750"
+                      height="500"
+                      layout="responsive"
+                      type="slides"
+                      lightbox>
+                      <amp-img src="{{ .Params.pageImage1 | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>
+                      {{ with .Params.pageImage2 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage3 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage4 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage5 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage6 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage7 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage8 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage9 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                     {{ with .Params.pageImage10 }} <amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage11 }}<amp-img src="{{ . | absURL }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage12 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage13 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage14 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage15 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage16 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage17 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage18 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage19 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+                      {{ with .Params.pageImage20 }}<amp-img src="../../{{ . }}"
+                        width="750"
+                        height="500"
+                        layout="responsive"
+                        alt="a sample image"></amp-img>{{ end }}
+    </amp-carousel>
+    </div>
+
+
+		<p class="h4 col-10 mx4 pt2 pb1">
+			<a href="tel:2608549463" class="ampstart-btn mb2 caps inline-block pb1 pt1 ">260.854.9463</a>
+			<a href="/contact" class="ampstart-btn caps inline-block mb2 pt1 pb1 ">Have a Question?</a>
+			<a href="/schedule-event" class="ampstart-btn caps inline-block mb2 pt1 pb1 ">Schedule an Event</a>
+			<a href="/event" class="ampstart-btn caps inline-block mb2 pt1 pb1 ">Back to Events</a>
+		</p>
+		
+		<h3 class="col-10 mx3 pb1 pt1">Share Event to Social</h3>
+<div class="ampstart-social-box col-10 mx3 pb1 pt1">
+  <amp-social-share type="twitter" aria-label="Share this on Twitter"></amp-social-share>
+  <amp-social-share type="facebook" data-param-text="KDZ sylvan-cellar-event Sales & Service" data-param-href="../../{{ .Permalink }}" data-param-app_id="1069691053416372" aria-label="Share this on Facebook"></amp-social-share>
+  <amp-social-share type="pinterest" aria-label="Share this on pintrest"></amp-social-share>
+</div>
+
+{{ end }}

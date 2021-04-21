@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html ⚡="" lang="en">
+
+    {{- partial "head.html" . -}}
+
+    <body>
+
+        {{- partial "header.html" . -}}
+
+        {{- block "main" . }}{{- end }}
+
+        {{- partial "footer.html" . -}}
+
+        <amp-analytics type="googleanalytics" id="analytics-ga">
+		  <script type="application/json">
+		  {
+		    "vars": {
+		      "account": "{{ .Site.Params.googleAnalytics }}"
+		    },
+		    "triggers": {
+		      "trackPageview": {
+		        "on": "visible",
+		        "request": "pageview"
+		      }
+		    }
+		  }
+		  </script>
+		</amp-analytics>
+        
+        <!-- <amp-install-serviceworker src="../../sw.js" layout="nodisplay" data-iframe-src="../../install-service-worker.html">
+    	</amp-install-serviceworker> -->
+
+    </body>
+
+</html>

@@ -1,0 +1,10 @@
+ <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ $.Site.Params.twitter }}">
+  <meta name="twitter:creator" content="@{{ $.Site.Params.twitter }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Params.description}}{{end}}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL | safeHTML }}{{ with .Params.featuredImageJpg }}{{ . | safeHTML }}{{ else }}{{ with .Site.Params.featuredImageJpg }}{{ . }}{{ end }}{{ end }}">
+  <meta name="twitter:image:alt" content="{{ .Title }}">
+
+

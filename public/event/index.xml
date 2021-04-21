@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Sylvan Cellars Events and Tasting Room</title>
+    <link>https://fort-wayne-web-apps.web.app/event/</link>
+    <description>Recent content in Event on Sylvan Cellars Events and Tasting Room</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jun 2020 01:47:24 -0400</lastBuildDate>
+    
+	<atom:link href="https://fort-wayne-web-apps.web.app/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cellars Luau</title>
+      <link>https://fort-wayne-web-apps.web.app/event/cellars-luau/</link>
+      <pubDate>Wed, 03 Jun 2020 13:28:32 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/event/cellars-luau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Another Wedding</title>
+      <link>https://fort-wayne-web-apps.web.app/event/another-wedding/</link>
+      <pubDate>Wed, 03 Jun 2020 13:28:08 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/event/another-wedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Button Wedding</title>
+      <link>https://fort-wayne-web-apps.web.app/event/button-wedding/</link>
+      <pubDate>Wed, 03 Jun 2020 11:25:01 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/event/button-wedding/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

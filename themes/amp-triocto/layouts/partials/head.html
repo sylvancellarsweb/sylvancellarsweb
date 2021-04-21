@@ -1,0 +1,52 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.Title }}{{ . }}{{ end }}{{ end }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">  
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+  
+<!--   {{- partial "social-meta/micro-data.html" . -}}   -->
+
+  {{- partial "social-meta/twitter.html" . -}}
+  
+  {{- partial "social-meta/og-meta.html" . -}}
+  
+<!--   {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="Subscribe for Insights into Digital Marketing, Branding and Website Design & Development" href="{{ .RelPermalink }}" />{{ end }} -->
+
+  <meta name="theme-color" content="{{ $.Site.Params.themeColor }}">
+
+  <link rel="shortcut icon" href="{{ $.Site.Params.favicon }}">
+
+  <!-- icon for Safari -->
+  <link rel="apple-touch-icon" href="ios-icon-192x192.png">
+
+  <!-- icon for IE -->
+  <meta name="msapplication-square310x310logo" content="microsoft-icon-310x310.png">
+  
+  <link rel="manifest" href="/manifest.json">
+
+  {{- partial "sd/webpage.html" . | safeHTML -}}
+
+  {{- partial "sd/organization.html" . -}}
+  
+  {{- partial "sd/breadcrumbs.html" . -}}
+  
+  {{- partial "sd/localBusiness.html" . -}}
+
+<!--   {{ if eq .Section "service" }}
+
+    {{- partial "sd/article.html" . -}}
+
+  {{ end }} -->
+
+  {{- partial "boilerplate.html" . -}}  
+
+  {{- partial "customCss.html" . -}}  
+
+  {{- partial "scripts.html" . -}}  
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+
+</head>

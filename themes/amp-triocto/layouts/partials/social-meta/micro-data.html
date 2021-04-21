@@ -1,0 +1,3 @@
+  <meta itemprop="name" content="{{ .Title }}">
+  <meta itemprop="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Params.description}}{{end}}">
+  <meta itemprop="image" content="{{ .Site.BaseURL | safeHTML }}{{ with .Params.featuredImageJpg }}{{ . | safeHTML }}{{ else }}{{ with .Site.Params.featuredImageJpg }}{{ . }}{{ end }}{{ end }}">

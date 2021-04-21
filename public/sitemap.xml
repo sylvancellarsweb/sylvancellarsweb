@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/event/cellars-luau/</loc>
+    <lastmod>2020-06-03T13:28:32-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/event/another-wedding/</loc>
+    <lastmod>2020-06-03T13:28:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/event/button-wedding/</loc>
+    <lastmod>2020-06-03T11:25:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/venue/</loc>
+    <lastmod>2020-06-03T10:26:49-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/schedule-event/</loc>
+    <lastmod>2020-06-02T02:02:40-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/about/</loc>
+    <lastmod>2020-06-02T01:57:46-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/event/</loc>
+    <lastmod>2020-06-02T01:47:24-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/contact/</loc>
+    <lastmod>2020-06-02T01:46:27-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/</loc>
+    <lastmod>2020-03-20T15:38:54-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/privacy-policy/</loc>
+    <lastmod>2020-03-20T15:01:22-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fort-wayne-web-apps.web.app/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

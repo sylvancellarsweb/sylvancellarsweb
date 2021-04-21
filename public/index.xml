@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sylvan Cellars Events and Tasting Room</title>
+    <link>https://fort-wayne-web-apps.web.app/</link>
+    <description>Recent content on Sylvan Cellars Events and Tasting Room</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Mar 2020 15:38:54 -0400</lastBuildDate>
+    
+	<atom:link href="https://fort-wayne-web-apps.web.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cellars Luau</title>
+      <link>https://fort-wayne-web-apps.web.app/event/cellars-luau/</link>
+      <pubDate>Wed, 03 Jun 2020 13:28:32 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/event/cellars-luau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Another Wedding</title>
+      <link>https://fort-wayne-web-apps.web.app/event/another-wedding/</link>
+      <pubDate>Wed, 03 Jun 2020 13:28:08 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/event/another-wedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Button Wedding</title>
+      <link>https://fort-wayne-web-apps.web.app/event/button-wedding/</link>
+      <pubDate>Wed, 03 Jun 2020 11:25:01 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/event/button-wedding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schedule Event</title>
+      <link>https://fort-wayne-web-apps.web.app/schedule-event/</link>
+      <pubDate>Tue, 02 Jun 2020 02:02:40 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/schedule-event/</guid>
+      <description>
+Schedule an Event Today!      </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://fort-wayne-web-apps.web.app/about/</link>
+      <pubDate>Tue, 02 Jun 2020 01:57:46 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/about/</guid>
+      <description>Home &amp;gt; About Us What started as a vision turned into a labor of love when Rachel and Nathan Schermerhorn purchased the barn in Rome City, Indiana in 2012.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://fort-wayne-web-apps.web.app/contact/</link>
+      <pubDate>Tue, 02 Jun 2020 01:46:27 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/contact/</guid>
+      <description>Home &amp;gt; Contact Us Contact Us   Schedule Event</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://fort-wayne-web-apps.web.app/privacy-policy/</link>
+      <pubDate>Fri, 20 Mar 2020 15:01:22 -0400</pubDate>
+      
+      <guid>https://fort-wayne-web-apps.web.app/privacy-policy/</guid>
+      <description>Privacy Policy This privacy policy discloses the privacy practices for the Sylvan Cellars Events &amp;amp; Tasting Room.</description>
+    </item>
+    
+  </channel>
+</rss>
