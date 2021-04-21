@@ -42,6 +42,5 @@ pageImage22: ''
 pageImage23: ''
 pageImage24: ''
 pageImage25: ''
-draft: true
 
 ---
