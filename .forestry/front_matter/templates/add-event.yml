@@ -110,3 +110,5 @@ fields:
 - type: file
   name: pageImage20
   label: pageImage20
+pages:
+- content/event/my-new-event-is-so-cool.md
