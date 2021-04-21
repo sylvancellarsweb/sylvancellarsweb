@@ -1,7 +1,6 @@
 +++
 date = 2021-04-21T18:28:00Z
 description = "Another exciting event at Sylvan Cellars Events & Tasting Room yada"
-draft = true
 eventDate = "04-27-2021"
 eventDetails = "Joe Jackson and Sally Smith coming together in marriage before friends and family.  It's going to be a hoot!"
 eventTime = "2:00 PM"
@@ -28,7 +27,7 @@ pageImage19 = ""
 pageImage2 = "/tasting-room-7.jpg"
 pageImage20 = ""
 pageImage3 = "/tasting-room.jpg"
-pageImage4 = ""
+pageImage4 = "/win-and-glass.jpg"
 pageImage5 = "/tasting-room-4.jpg"
 pageImage6 = "/tasting-room-5.jpg"
 pageImage7 = "/tasting-room-11.jpg"
