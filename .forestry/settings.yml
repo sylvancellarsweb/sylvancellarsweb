@@ -4,21 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: config.toml
+  label: Config
 - type: directory
   path: content/venue
   label: Venue
   create: all
   match: "**/*"
 - type: directory
-  path: content/schedule-event
-  label: Schedule event
-  create: all
-  match: "**/*"
-- type: directory
   path: content/event
   label: Event
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - add-event
 upload_dir: static
 public_path: ''
 front_matter_path: ''
