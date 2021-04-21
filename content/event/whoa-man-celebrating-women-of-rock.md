@@ -1,8 +1,8 @@
 +++
 date = 2021-04-21T04:00:00Z
-description = "Help us welcome Whoa-Man to the barn for their FIRST TIME."
+description = "CELEBRATE GIRL POWER! Help us welcome Whoa-Man to the barn for their FIRST TIME."
 eventDate = "04-30-2021"
-eventDetails = "Whoa,Man! celebrates the iconic women of rock who have influenced generations of music lovers & musicians alike! With three, alternating, female lead singers and a tight group of players, Whoa,Man! is a seven piece professional powerhouse band that will rock the night! Expect danceable, anthemic songs from the most influential fem rockers of the last six decades."
+eventDetails = "Whoa,Man! celebrates the iconic women of rock who have influenced generations of music lovers & musicians alike! With three, alternating, female lead singers and a tight group of players, Whoa,Man! is a seven piece professional powerhouse band that will rock the night! Expect danceable, anthemic songs from the most influential fem rockers of the last six decades.\n\nThe band includes Teresa (Mind's Eye & Night to Remember) and Sunny Taylor ( Sunny Taylor Band). Karis from Kaitlyn Schmit and the Move will be opening the set with a brief solo acoustic set!"
 eventTime = "8pm - 11pm"
 feature1 = "Patio Concert (Weather Permitting)"
 feature2 = "PARTY ON THE PATIO FOOD TRUCK (6pm-9pm)"
