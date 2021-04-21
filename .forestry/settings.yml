@@ -12,8 +12,10 @@ sections:
 - type: directory
   path: content/event
   label: Event
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - add-event
 upload_dir: static
 public_path: ''
 front_matter_path: ''
