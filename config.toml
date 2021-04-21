@@ -1,111 +1,81 @@
 baseURL = "https://sylvancellars.net"
+disableHugoGeneratorInject = true
 languageCode = "en-us"
-title = "Sylvan Cellars Events and Tasting Room"
-theme = "amp-triocto"
-summaryLength = "10"
 paginate = 100
-# disqusShortname = "https-xxx-com"
-disableHugoGeneratorInject =  true
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
+summaryLength = "10"
+theme = "amp-triocto"
+title = "Sylvan Cellars Events and Tasting Room"
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 3
+[[menu.main]]
+URL = "venue"
+name = "Venue"
+weight = 2
+[[menu.main]]
+URL = "event"
+name = "Events"
+weight = 1
 [params]
-
-# Images
-  favicon = "../../favicon.ico"
-  logoFull = "../../logo-full.png"
-  logoIcon = "../../logo-icon.png"  # 1024x1024
-  logoSideBar = "../../icon-192x192.png"
-  logoSideBarWidth = "192"
-  logoSideBarHeight = "192"
-  publisherLogo = "../../publisher-logo.png"
-  featuredImageJpg = "../../featured-image.jpg"
-  featuredImageWebp = "../../featured-image.webp"
-  
-# Brand Information
-  businessName = "Sylvan Cellars Events & Tasting Room"
-  businessLegalName = "Sylvan Cellars Events and Tasting Room, LLC."
-  streetAddress = "2725 E Northport Rd"
-  addressLocality = "Rome City"
-  addressRegion = "Indiana"
-  postalCode = "46784"
-  addressCountry = "United States"
-  latitude = "41.506536"
-  longitude = "-85.3742448"
-  priceRange = "xxx" # such as $, $$, $$$, $$$$, or $$$$$
-  author = "Sylvan Cellars "
-  description = "Host your next occasion in the unique, vintage barn lofts equipped with breathtaking 30-foot-high gabled ceilings at the Sylvan Cellars Events and Tasting Room located in Rome City, Indiana."
-  themeColor = "#bcab89"
-  email = "info@sylvancellars.com" 
-  phoneDisplay = "260-854-9463" 
-  phone = "2608549463" 
-  # gmapApi = ""
-  # mapLatitude = "41.506536"
-  # mapLongitude = ""
-  # mapMarker = ""
-  googleAnalytics = "123"
-
-# Business Hours (Military Time is used for localBusiness.html SD file)
-  mondayOpen = "02:00" # format army time, such as 18:00
-  mondayClose = "21:00"
-  tuesdayOpen = "02:00"
-  tuesdayClose = "21:00"
-  wednesdayOpen = "02:00"
-  wednesdayClose = "21:00"
-  thursdayOpen = "02:00"
-  thursdayClose = "21:00"
-  fridayOpen = "02:00"
-  fridayClose = "00:00"
-  saturdayOpen = "12:00"
-  saturdayClose = "00:00"
-  sundayOpen = "12:00"
-  sundayClose = "21:00"
-
-# Business Hours (Regular Time for Footer & Contact Page)
-
-  monday = "2:00 PM - 9:00 PM"
-  tuesday = "2:00 PM - 9:00 PM"
-  wednesday = "2:00 PM - 9:00 PM"
-  thursday = "2:00 PM - 9:00 PM"
-  friday = "2:00 PM - 12:00 AM"
-  saturday = "12:00 PM - 12:00 AM"
-  sunday = "12:00 PM - 9:00 PM"
-
-# Social Media
-
-  facebookAppId = "1162765924063888"
-  facebookURL = "https://www.facebook.com/sylvancellars/"
-  twitter = "cellars_sylvan"
-  twitterURL = "https://twitter.com/cellars_sylvan"
-  instagramURL = "https://www.instagram.com/sylvan_cellars/"
-  youtubeURL = "https://www.youtube.com/channel/UCvoVzKbVGmKXYd0xnGjjXKg"
-  # linkedin = "xxx"
-  # mailchimp subsciption
-  # mailchimpFormAction = "https://xxx" # replace this url with yours
-  # mailchimpFormName = "xxx" # replace this code with yours
-
-# navigation
-[menu]
-  
-  [[menu.main]]
-  name = "Events"
-  URL = "event"
-  weight = 2  
-
-  [[menu.main]]
-  name = "Venue"
-  URL = "venue"
-  weight = 3
-
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 4
-  
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
+addressCountry = "United States"
+addressLocality = "Rome City"
+addressRegion = "Indiana"
+author = "Sylvan Cellars "
+businessLegalName = "Sylvan Cellars Events and Tasting Room, LLC."
+businessName = "Sylvan Cellars Events & Tasting Room"
+description = "Host your next occasion in the unique, vintage barn lofts equipped with breathtaking 30-foot-high gabled ceilings at the Sylvan Cellars Events and Tasting Room located in Rome City, Indiana."
+email = "info@sylvancellars.com"
+facebookAppId = "1162765924063888"
+facebookURL = "https://www.facebook.com/sylvancellars/"
+favicon = "../../favicon.ico"
+featuredImageJpg = "../../featured-image.jpg"
+featuredImageWebp = "../../featured-image.webp"
+friday = "2:00 PM - 12:00 AM"
+fridayClose = "00:00"
+fridayOpen = "02:00"
+googleAnalytics = "123"
+instagramURL = "https://www.instagram.com/sylvan_cellars/"
+latitude = "41.506536"
+logoFull = "../../logo-full.png"
+logoIcon = "../../logo-icon.png"
+logoSideBar = "../../icon-192x192.png"
+logoSideBarHeight = "192"
+logoSideBarWidth = "192"
+longitude = "-85.3742448"
+monday = "2:00 PM - 9:00 PM"
+mondayClose = "21:00"
+mondayOpen = "02:00"
+phone = "2608549463"
+phoneDisplay = "260-854-9463"
+postalCode = "46784"
+priceRange = "xxx"
+publisherLogo = "../../publisher-logo.png"
+saturday = "12:00 PM - 12:00 AM"
+saturdayClose = "00:00"
+saturdayOpen = "12:00"
+streetAddress = "2725 E Northport Rd"
+sunday = "12:00 PM - 9:00 PM"
+sundayClose = "21:00"
+sundayOpen = "12:00"
+themeColor = "#bcab89"
+thursday = "2:00 PM - 9:00 PM"
+thursdayClose = "21:00"
+thursdayOpen = "02:00"
+tuesday = "2:00 PM - 9:00 PM"
+tuesdayClose = "21:00"
+tuesdayOpen = "02:00"
+twitter = "cellars_sylvan"
+twitterURL = "https://twitter.com/cellars_sylvan"
+wednesday = "2:00 PM - 9:00 PM"
+wednesdayClose = "21:00"
+wednesdayOpen = "02:00"
+youtubeURL = "https://www.youtube.com/channel/UCvoVzKbVGmKXYd0xnGjjXKg"
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
