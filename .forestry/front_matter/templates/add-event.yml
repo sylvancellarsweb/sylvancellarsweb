@@ -111,4 +111,5 @@ fields:
   name: pageImage20
   label: pageImage20
 pages:
+- content/event/my-new-event-is-so-cool-1.md
 - content/event/my-new-event-is-so-cool.md
