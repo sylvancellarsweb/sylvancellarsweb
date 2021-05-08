@@ -110,3 +110,5 @@ fields:
 - type: file
   name: pageImage20
   label: pageImage20
+pages:
+- content/event/hunter-wainscott-acoustic-no-cover.md
