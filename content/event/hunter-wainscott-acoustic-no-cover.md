@@ -1,7 +1,6 @@
 +++
 date = 2021-05-09T00:00:00Z
 description = "Help us welcome Hunter Wainscott for his first appearance here at Sylvan Cellars! Music starts at 8pm till 11pm! "
-draft = true
 eventDate = "05/08/2021"
 eventDetails = ""
 eventTime = "8pm - 11pm"
