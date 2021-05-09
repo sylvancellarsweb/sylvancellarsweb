@@ -33,6 +33,6 @@ pageImage6 = ""
 pageImage7 = ""
 pageImage8 = ""
 pageImage9 = ""
-title = "Drop Dead Dangerous"
+title = "Drop Dead Dangerous ($10 Cover)"
 
 +++
