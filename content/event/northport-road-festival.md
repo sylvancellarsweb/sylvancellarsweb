@@ -33,6 +33,6 @@ pageImage6 = ""
 pageImage7 = ""
 pageImage8 = ""
 pageImage9 = ""
-title = "NORTHPORT ROAD FESTIVAL"
+title = "NORTHPORT ROAD FESTIVAL ($10 Cover)"
 
 +++
