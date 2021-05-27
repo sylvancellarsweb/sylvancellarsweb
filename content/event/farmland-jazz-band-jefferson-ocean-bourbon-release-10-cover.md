@@ -33,6 +33,6 @@ pageImage6 = ""
 pageImage7 = ""
 pageImage8 = ""
 pageImage9 = ""
-title = "Farmland Jazz Band / Jefferson Ocean Bourbon Release ($10 Cover)"
+title = "Farmland Jazz Band / Jefferson Ocean Bourbon Release (No Cover)"
 
 +++
