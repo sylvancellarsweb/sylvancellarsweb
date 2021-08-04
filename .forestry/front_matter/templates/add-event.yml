@@ -110,5 +110,3 @@ fields:
 - type: file
   name: pageImage20
   label: pageImage20
-pages:
-- content/event/here-nor-there-no-cover-1.md
