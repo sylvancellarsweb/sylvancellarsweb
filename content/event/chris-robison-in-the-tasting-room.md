@@ -1,7 +1,6 @@
 +++
 date = 2021-10-16T04:00:00Z
 description = "Chris Robison back at the barn!"
-draft = true
 eventDate = "10/23/21"
 eventDetails = ""
 eventTime = "8pm - 11pm"
@@ -12,8 +11,8 @@ feature4 = ""
 feature5 = ""
 feature6 = ""
 featured_image = "/chris-robison.jpg"
-featured_image_height = ""
-featured_image_width = ""
+featured_image_height = "1367"
+featured_image_width = "2048"
 pageImage1 = ""
 pageImage10 = ""
 pageImage11 = ""
