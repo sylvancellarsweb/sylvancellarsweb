@@ -2,7 +2,7 @@
 date = 2022-03-10T05:00:00Z
 description = "Summer Series"
 eventDate = "06/24/22"
-eventDetails = "Shepherds Summer Concert Series Returns To Sylvan Cellars with National Headlining act JIMMIE ALLEN (Country Music Artist of the Year), Northport Road, Charles Billingsley/Radio Time Machine and Resurrection (National Headlining Journey Tribute Band).\n\n\nJimmie Allen tickets are available through Event Brite Ticket sales @ https://www.eventbrite.com/e/jimmie-allen-tickets-273544869067\n\n"
+eventDetails = "Shepherds Summer Concert Series Returns To Sylvan Cellars with National Headlining act JIMMIE ALLEN (Country Music Artist of the Year), Northport Road, Charles Billingsley/Radio Time Machine and Resurrection (National Headlining Journey Tribute Band.\n\n\nJimmie Allen tickets are available through Event Brite Ticket sales @ https://www.eventbrite.com/e/jimmie-allen-tickets-273544869067\n\n"
 eventTime = "7p-12a"
 feature1 = "Jimmie Allen June 24th"
 feature2 = "Northport Road - July 23rd"
