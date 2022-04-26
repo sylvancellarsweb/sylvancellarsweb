@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: config.toml
-  label: Config
 - type: directory
   path: content/venue
   label: Venue
